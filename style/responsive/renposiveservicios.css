@@ -1,0 +1,103 @@
+@import '/Consultorio_Odontologico/style/normalize.css';
+
+
+@media screen and (max-width:1200px){
+    .servicios{
+        width: 90%;
+    }
+    .catalogo-servicios{
+        text-align: center;
+    }
+
+    .servicios{
+        padding-bottom: 0;
+    }
+    .servicios li{
+        width: 40%;
+        margin: 0 1.5% 50px;
+    }
+}
+
+@media screen and (max-width:992px){
+    img{
+        width: 10%;
+    }
+
+   .servicios{
+        width: 90%;
+    }
+    .catalogo-servicios{
+        text-align: center;
+    }
+
+    .servicios{
+        padding-bottom: 0;
+    }
+    .servicios li{
+        width: 40%;
+        margin: 0 1.5% 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    img{
+        width: 10%;
+    }
+    nav a{
+        font-size: 1.5em;
+    }
+    .servicios li{
+        width: 60%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (max-width:576px){ 
+    img{
+        width:20%;   
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 1.3em;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li a {
+        font-size: 1em;
+        padding: 8px 12px;
+    }
+
+    .servicios li {
+        width: 80%;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .servicios li {
+        width: 80%;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+  
+}
+
+@media screen and (max-width:390px){
+    .servicios li {
+        width: 80%;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+  
+}

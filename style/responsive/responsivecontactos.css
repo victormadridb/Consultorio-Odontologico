@@ -1,0 +1,98 @@
+/* Estilos generales */
+@import '/Consultorio_Odontologico/style/normalize.css';
+
+@media screen and (min-width: 1297px) {
+    .contacto{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .enviar {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:992px){
+    img{
+        width: 10%;
+    }
+    .contacto{
+        width: 90%;
+    }
+    .formulario, .informacion{
+        width: 100%;
+    }
+    .informacion > img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .enviar{
+        width: 40%;
+        margin-left: 25%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    img{
+        width: 10%;
+    }
+    nav a{
+        font-size: 1.5em;
+    }
+    .titulo-principal {
+        font-size: 1.8em;
+    }
+}
+
+
+@media screen and (max-width:576px){ 
+    img{
+        width:20%;   
+    } 
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .caja{
+        width: 90%;
+        text-align: center;
+        position: static;
+    }
+   
+    nav a {
+        font-size: 1.3em;
+    }
+    .titulo-principal {
+        font-size: 1.3em;
+        margin: 1.3em 0;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    img{
+        width: 30%;
+    }
+    .caja {
+        width: 100%;
+    }
+    .informacion .icon {
+        font-size: 35px;
+    }
+    .reloj{
+        width: 26.5pt;
+    }
+    .enviar {
+            width: 79%;
+            margin-left: 10%;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
