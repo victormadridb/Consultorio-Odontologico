@@ -1,6 +1,3 @@
-# Consultorio-Odontologico
-
-
 <h1 align="center">Consultorio Odontologico</h1>
 
 <hr>
