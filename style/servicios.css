@@ -1,0 +1,171 @@
+/* Estilos generales */
+@import '/Consultorio_Odontologico/style/normalize.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/Consultorio_Odontologico/img/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Barra de navegación */
+header {
+    width: 100%;
+}
+
+img{
+    width: 5%;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+nav {
+    background-color: rgba(0, 82, 155, 0.9);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+     
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #00529B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/*Aqui empieza los servicios*/
+.servicios {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.catalogo-servicios{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.servicios li{
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 30px 11px;
+    box-sizing: border-box;
+    border: 3px dotted #039BE5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.servicios li:hover{
+    border-color: #1E88E5;
+}
+.servicios li:active{
+    border-color: #1565C0;
+}
+.servicios h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+.servicios li:hover h2{
+    font-size: 30px;
+}
+.servicios img{
+    width: 80%;
+}
+.servicios-descripcion{
+    font-size: 18px;
+    margin: 0;
+}
+.servicios-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+/*footeer*/
+section.footer {
+    position: relative;
+    background-color: rgba(0, 82, 155, 0.9);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+section.footer div.rodape {
+    text-align: center;
+}
+
+.pRodapie{
+    width: 100%;
+    background-color: rgba(0, 82, 155, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    background: transparent;
+}
+
+.rodapePrincipal-author-link-socialMedia .fa-brands {
+    font-size: 50px;
+    background: transparent;
+    color: #22201b;
+}
+
+.rodapePrincipal-author-link-socialMedia {
+    margin: 0 10px;
+}
+
+.rodapePrincipal-author .rodapePrincipal-author-link {
+    display: flex;
+    background: none;
+}
+
+
+
+
+
+

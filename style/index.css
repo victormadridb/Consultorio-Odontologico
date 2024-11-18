@@ -1,0 +1,188 @@
+@import '/Consultorio_Odontologico/style/normalize.css';
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/Consultorio_Odontologico/img/Fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Barra de navegación */
+header {
+    width: 100%;
+}
+
+img{
+    width: 5%;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+nav {
+    background-color: rgba(0, 82, 155, 0.9);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+     
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #00529B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Contenido principal */
+.principal{
+    text-align: center;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px; 
+}
+
+.h1Principal {
+    font-size: 2.9em;
+    color: #00529B;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+        font-style: italic;
+}
+
+/*Sección agendar y div boton*/
+.agendar{
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px; 
+    margin-top: 25px;
+}
+
+.h2Agendar{
+    padding: 15px;
+    font-size: 2em;
+    color: #333;
+}
+
+.boton{
+    margin-top: 15px;
+}
+
+button {
+    font-size: 1.6em;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.17);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.sobreNosotros{
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px; 
+}
+
+.h2sobreNosotros{
+    padding: 15px;
+    font-size: 2em;
+    color: #00529B;
+    margin-top: 25px;
+}
+
+.pSobremi {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+
+
+
+/*footeer*/
+section.footer {
+    bottom: 0;
+    background-color: rgba(0, 82, 155, 0.9);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+section.footer div.rodape {
+    text-align: center;
+}
+
+.pRodapie{
+    width: 100%;
+    background-color: rgba(0, 82, 155, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    background: transparent;
+}
+
+.rodapePrincipal-author-link-socialMedia .fa-brands {
+    font-size: 50px;
+    background: transparent;
+    color: #22201b;
+}
+
+.rodapePrincipal-author-link-socialMedia {
+    margin: 0 10px;
+}
+
+.rodapePrincipal-author .rodapePrincipal-author-link {
+    display: flex;
+    background: none;
+}

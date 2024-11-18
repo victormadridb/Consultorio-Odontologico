@@ -1,0 +1,246 @@
+/* Estilos generales */
+@import '/Consultorio_Odontologico/style/normalize.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/Consultorio_Odontologico/img/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Barra de navegación */
+header {
+    width: 100%;
+}
+
+img{
+    width: 5%;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+nav {
+    background-color: rgba(0, 82, 155, 0.9);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+     
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #00529B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/*Aqui empieza la seccion de contacto*/
+.contacto{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.titulo-principal{
+    font-size: 2em;
+    text-align: center;
+    margin: 1.5em 0;
+    clear: left;
+    text-transform: capitalize;
+}
+
+.formulario{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form fieldset{
+    border: none;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+    overflow: auto;
+    border:1px solid rgb(6, 81, 138);
+    border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+
+textarea{
+    resize: none;
+    line-height: 1;
+    word-spacing: 3px;
+}
+
+.checkbox{
+    margin: 30px 0;
+    padding: 0 12px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background-image: linear-gradient(15deg,rgb(0,0,0)30%,rgb(63, 51, 119));
+    border:none;
+    border-radius: 5px;
+    transition: 1s all; /*para que toda las transiciones sean aplicadas a todos los demas elementos*/
+    cursor:pointer; /*para cambiar la forma del puntero del mause*/
+    margin-left: 25%;
+}
+
+.enviar:hover{
+    transform: scale(1.2); /*Para hacer el boton enviar formulario mas grande*/
+}
+
+.informacion .conten{
+    margin-bottom: 1.5em;
+}
+
+.informacion .icon{
+    font-size: 40px;
+    display: inline-block;
+    color: rgb(6, 81, 138);
+    margin-left: 20px;
+}
+
+.informacion .info-icon{
+    width: 80%;
+    margin-left: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    
+}
+
+.informacion{
+    width: 45%;
+    display: inline-block;
+}
+
+.informacion div > h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.informacion div > h3::after{
+    content:":"
+}
+
+.informacion div > p{
+    margin-top: 0;
+    word-break: break-all;
+}
+
+.informacion > img{
+    width: 90%;
+    margin-left: 25px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 10px 10px 30px 15px #000000;
+    border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+}
+
+.informacion > img:hover{
+    opacity: 0.3;
+}
+
+
+/*Aca empieza la sección del mapa*/
+.mapa p{
+    text-align: center;
+}
+
+
+/*footeer*/
+section.footer {
+    position: relative;
+    background-color: rgba(0, 82, 155, 0.9);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+section.footer div.rodape {
+    text-align: center;
+}
+
+.pRodapie{
+    width: 100%;
+    background-color: rgba(0, 82, 155, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    background: transparent;
+}
+
+.rodapePrincipal-author-link-socialMedia .fa-brands {
+    font-size: 50px;
+    background: transparent;
+    color: #22201b;
+}
+
+.rodapePrincipal-author-link-socialMedia {
+    margin: 0 10px;
+}
+
+.rodapePrincipal-author .rodapePrincipal-author-link {
+    display: flex;
+    background: none;
+}
