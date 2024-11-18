@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style/contacto.css">
+    <link rel="stylesheet" href="style/responsive/responsivecontactos.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="icon" type="image/icon" sizes="16x16" href="img/iconos/icono.ico">
+  </head>
+
+<body>
+    <header> 
+            <!-- Barra de navegación -->
+        <nav>
+            <img src="img/logobarraa.png" alt="Logo Clinica">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <div class="formulario">
+                <h2  class="titulo-principal">Solicitud de Contacto</h2>
+                <form>
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+            
+                      <label for="correoelectronico">Correo Electrónico</label>
+                     <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+            
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+    
+                    <fieldset>
+                        <legend>¿Cómo le gustaría que lo contactemos?</legend>
+    
+                        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>¿En cuál horario prefiere ser contactado?</legend>
+    
+                        <select>
+                            <option>Mañana</option>
+                            <option>Tarde</option>
+                            <option>Noche</option>
+                        </select>
+    
+                    </fieldset>
+    
+                    <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades y ofertas?</label>
+            
+                    <input type="submit" value="Enviar formulario" class="enviar">
+                </form>
+            </div>
+
+            <div class="informacion">
+                <h2  class="titulo-principal">Información</h2>
+
+                <div class="conten">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="info-icon">
+                        <h3>Dirección</h3>
+                        <p>Av Juan Bautista Alberdi 876 - Caballito, Capital Federal - CP 1424</p>
+                    </div>
+                </div>
+
+                <div class="conten">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="info-icon">
+                        <h3>teléfono</h3>
+                        <p>+54 9 1176406772</p>
+                    </div>
+                </div>
+
+                <div class="conten">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="info-icon">
+                        <h3>correo electrónico</h3>
+                        <p>victormadridb@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="conten">
+                    <div class="icon">
+                        <img class="reloj" src="img/Contacto/reloj.svg">
+                    </div>
+                    <div class="info-icon">
+                        <h3>horario de atención</h3>
+                        <p>Lun. a Vie. - 9:00am a 18:00pm</p>
+                    </div>
+                </div>
+
+                <img src="img/Contacto/odontologo1.png" alt="imagen de un barbero">
+            </div>
+        </section>
+
+        <section class="mapa">
+
+            <h3 class="titulo-principal">Nuestra Ubicación</h3>
+            <p>Nuestro establecimiento está ubicado en el Barrio de Caballito</p>
+
+           <div class="mapa-contenido">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2523513090196!2d-58.44245124890682!3d-34.623062680358665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb50aee1a7ad%3A0xa66cb774f642a086!2sOCRL%20INTERNATIONAL%20SRL!5e0!3m2!1ses-419!2sar!4v1672287569325!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+
+        </section>
+    </main>
+
+    <section class="footer">
+        <div class="rodape">
+            <p class="pRodapie">&copy; 2024 Gestor de Turnos <br/> Desarrollado por Victor Madrid</p>
+        </div>
+        <div class="rodapePrincipal-author-link">
+            <a class="rodapePrincipal-author-link-socialMedia" href="https://www.linkedin.com/in/victormadridb/"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="rodapePrincipal-author-link-socialMedia" href="https://github.com/victormadridb"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/ccf4c900d0.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
