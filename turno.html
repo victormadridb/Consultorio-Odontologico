@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Turnos</title>
+    <link rel="stylesheet" href="style/turno.css">
+    <link rel="stylesheet" href="style/responsive/responsiveturno.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="icon" type="image/icon" sizes="16x16" href="img/iconos/icono.ico">
+    <script src="https://kit.fontawesome.com/ccf4c900d0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header> 
+        <nav>
+            <img src="img/logobarraa.png" alt="Logo Clinica">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="h1Principal">AGENDAR CITA</h1>
+
+        <div class="formContainer">
+            <h2>Completa el Formulario</h2>
+            <label for="servicio">Servicio:</label>
+            <select id="servicio">
+                <option value="">Selecciona un servicio</option>
+                <option value="limpieza">Limpieza Dental</option>
+                <option value="extraccion">Extracción</option>
+                <option value="blanqueamiento">Blanqueamiento</option>
+                <option value="ortodoncia">Ortodoncia</option>
+                <option value="implantes">Implantes</option>
+                <option value="carillas">Carillas</option>
+            </select>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" required>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" min="09:00" max="18:00" required>
+
+            <div class="buttonContainer">
+                <button class="confirmarBtn" onclick="document.getElementById('servicio').selectedIndex = 0; document.getElementById('fecha').value = ''; document.getElementById('hora').value = '';">Confirmar Cita</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="rodape">
+            <p class="pRodapie">&copy; 2024 Gestor de Turnos <br/> Desarrollado por Victor Madrid</p>
+        </div>
+        <div class="rodapePrincipal-author-link">
+            <a class="rodapePrincipal-author-link-socialMedia" href="https://www.linkedin.com/in/victormadridb/"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="rodapePrincipal-author-link-socialMedia" href="https://github.com/victormadridb"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+</body>
+</html>
