@@ -1,0 +1,176 @@
+@import '/Consultorio_Odontologico/style/normalize.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/Fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Barra de navegación */
+header {
+    width: 100%;
+}
+
+img {
+    width: 5%;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+nav {
+    background-color: rgba(0, 82, 155, 0.9);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #00529B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor del formulario */ 
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.h1Principal {
+    font-size: 2.7em;
+    color: #00529B;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* Centra el botón */
+    width: 100%; /* para que ocupe todo el ancho */
+}
+
+.confirmarBtn {
+    padding: 10px 15px;
+    background-color:#007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto; 
+}
+
+.confirmarBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+section.footer {
+    bottom: 0;
+    background-color: rgba(0, 82, 155, 0.9);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+section.footer div.rodape {
+    text-align: center;
+}
+
+.pRodapie {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    background: transparent;
+}
+
+.rodapePrincipal-author-link-socialMedia .fa-brands {
+    font-size: 50px;
+    background: transparent;
+    color: #22201b;
+}
+
+.rodapePrincipal-author-link-socialMedia {
+    margin: 0 10px;
+}
+
+.rodapePrincipal-author .rodapePrincipal-author-link {
+    display: flex;
+    background: none;
+}
